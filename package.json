@@ -6,7 +6,7 @@
     "ssdp",
     "dlna"
   ],
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/smolleyes/node-upnp-client.git"
@@ -29,6 +29,6 @@
   "bugs": {
     "url": "https://github.com/smolleyes/node-upnp-client/issues"
   },
-  "_id": "node-upnp-client@0.0.1",
+  "_id": "node-upnp-client@0.1.0",
   "_from": "node-upnp-client@"
 }
