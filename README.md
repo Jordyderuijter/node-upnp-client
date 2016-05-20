@@ -1,12 +1,12 @@
 DESCRIPTION:
 ------------
 
-Get a list of the upnp devices on your local network thru nodejs and return networkServices like objects
+Get a list of the UPNP devices on your local network through nodejs and return networkServices like objects.
 
-I developped it to work with https://github.com/richtr/plug.play.js
+I developed it to work with https://github.com/richtr/plug.play.js
 
 
-Exemple:
+Example:
 --------
 
 <pre>
@@ -34,17 +34,19 @@ cli.on('updateUpnpDevice', function() {
 });
 </pre>
 
-you can now access, servers/renderers/connectionManagers and avTransports lists with :
+Uou can now access, servers/renderers/connectionManagers/avTransports/contentServers and unknownDevices lists with :
 
 <pre>
 cli._avTransports, 
 cli._renderers, 
 cli._connectionManagers, 
-cli._servers
+cli._servers,
+cli._contentServers,
+cli._unkownDevices
 </pre>
 
 
-Exemple of cli object after search with a server and renderer:
+Example of cli object after search with a server and renderer:
 --------------------------------------------------------------
 <pre>
 upnpClient {domain: null, _events: Object, _maxListeners: 10, _client: Socket, _ssdp: SSDP…}
