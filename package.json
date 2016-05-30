@@ -20,9 +20,10 @@
     "lib": "./lib"
   },
   "dependencies": {
-    "xmldoc": "*",
     "ip": "*",
-    "underscore" : "*"
+    "node-ssdp": "^2.7.1",
+    "underscore": "*",
+    "xmldoc": "*"
   },
   "readme": "",
   "readmeFilename": "README.md",
