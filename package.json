@@ -22,7 +22,8 @@
   "dependencies": {
     "xmldoc": "*",
     "ip": "*",
-    "underscore" : "*"
+    "underscore" : "*",
+    "node-ssdp": "^2.7.1"
   },
   "readme": "",
   "readmeFilename": "README.md",
